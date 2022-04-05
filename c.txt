@@ -1,0 +1,19 @@
+float a = 5;
+float b = 10;
+float t1 = a > b;
+
+float t2 = a == b;
+
+if (!t1) goto l2;
+a = 20;
+
+goto l1;
+l2:
+if (!t2) goto l3;
+b = 4;
+
+goto l1;
+l3:
+a = 25;
+
+l1:;
