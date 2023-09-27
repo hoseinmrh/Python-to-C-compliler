@@ -26,7 +26,6 @@ In this project we are using these concepts and convert python file to c file.
 ## Project Structure
 The project follows a specific structure to organize its files and directories:
 ```
-diabetes-prediction-app/
 ├── README.md
 ├── TokList.txt
 ├── c.txt
